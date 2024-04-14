@@ -1,6 +1,11 @@
 body{
-    background: rgb(43, 148, 180);
+    /*background: rgb(43, 148, 180);
+*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: URL('bg.jpg');
+  
+  
+  
 }
 header{
     display: flex;
@@ -22,12 +27,12 @@ header{
     background-color: #8AAEE0;
     border-radius: 7px;
     padding: 13px;
-    /* background: seashell; */
+    
 }
 .d-flex{
     background-color: #d5deef;
     padding: 15px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 7px;
     text-align: center;
     width: auto;
@@ -68,27 +73,21 @@ p{
 }
 .d-flex-btn-dip{
     /* display: none; */
-    margin: 20px;
+    margin: 8px 20px;
     padding: 8px 10px;
     border-radius: 6px;
     border: 2px solid #0563f1;
 }
 .d-flex-btn-dis{
     display: none;
-    margin: 20px;
+    margin:  20px 0px;
     padding: 8px 10px;
     border-radius: 6px;
     border: 2px solid #0563f1;
 
 }
-main{
-    
-    margin: 0% 30%;
 
-}
-#question{
-    margin: 40px;
-}
+
 .str{
     display: flex;
     justify-content: center;
@@ -102,9 +101,27 @@ main{
 .result{ 
     background-color: #8AAEE0;
     text-align: center;
-    margin: 10px 30px;
+   
+    /* change */
     padding: 10px 0px;
     border-radius: 9px;
     border-style: solid;
     border-color: blue;
+}
+
+img{
+  height: 50%;
+  width: 50%;
+  alalign: middle;
+}
+main{
+        
+    margin: 50px 0px 0px 0px;
+/* change */
+}
+@media only screen and (min-width:768px){
+    main{
+        margin: 40px 200px;
+        /* background-color: black; */
+    }
 }
