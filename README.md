@@ -1,1 +1,1 @@
---> https://arul3011.github.io/webhost/
+--> https://arul3011.github.io/quizApp/
